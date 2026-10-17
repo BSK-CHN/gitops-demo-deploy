@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: thecloudschool/gitops-demo-app:latest
+          image: thecloudschool/gitops-demo-app:f071d5b2fe9f838ae97d655ae69d3c7b31350d12
           imagePullPolicy: Always
           ports:
             - name: http
